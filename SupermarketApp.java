@@ -20,7 +20,7 @@ public class SupermarketApp {
             String captcha = scanner.nextLine().trim(); // Menghapus spasi tambahan pada input
 
             // Validasi login dengan equalsIgnoreCase dan equals
-            if (username.equalsIgnoreCase("akurian") && password.equals("bro123") && captcha.equals("2104")) {
+            if (username.equalsIgnoreCase("akurian") && password.equals("bro123") && captcha.equals("1234")) {
                 // equalsIgnoreCase digunakan agar username tidak peka huruf besar/kecil
                 // equals digunakan untuk validasi password dan captcha yang peka huruf besar/kecil
                 loginSuccess = true;
